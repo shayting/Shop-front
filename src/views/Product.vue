@@ -23,7 +23,7 @@ export default {
       price: 0,
       description: '',
       image: '',
-      sell: false,
+      sell: true,
       category: '',
       quantity: 0
     }
