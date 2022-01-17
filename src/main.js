@@ -11,6 +11,12 @@ import 'sweetalert2/dist/sweetalert2.min.css'
 import mixin from './mixin.js'
 import ImgInputer from 'vue-img-inputer'
 import 'vue-img-inputer/dist/index.css'
+import VueGtag from 'vue-gtag'
+
+Vue.use(VueGtag, {
+  config: { id: 'G-8QZPL1LZBC' }
+})
+
 
 Vue.component('ImgInputer', ImgInputer)
 Vue.use(VueSweetalert2)
